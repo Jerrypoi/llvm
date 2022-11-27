@@ -511,7 +511,7 @@ add_subdirectory(utils/TableGen)
 add_subdirectory(include/llvm)
 
 add_subdirectory(lib)
-
+add_subdirectory(clang)
 if( LLVM_INCLUDE_UTILS )
   add_subdirectory(utils/FileCheck)
   add_subdirectory(utils/PerfectShuffle)
@@ -601,3 +601,4 @@ if (NOT LLVM_INSTALL_TOOLCHAIN_ONLY)
     PATTERN ".svn" EXCLUDE
     )
 endif()
+
